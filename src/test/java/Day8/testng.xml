@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/samue/IdeaProjects/RestAssured/src/test/java/Day8">
+        <classes>
+            <class name="Day8.CreateUser"/>
+            <class name="Day8.GetUser"/>
+            <class name="Day8.UpdateUser"/>
+            <class name="Day8.DeleteUser"/>
+        </classes>
+    </test>
+</suite>

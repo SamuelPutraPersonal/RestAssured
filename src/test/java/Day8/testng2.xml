@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Test1">
+        <classes>
+            <class name="Day8.CreateUser"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test2">
+        <classes>
+            <class name="Day8.GetUser"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test3">
+        <classes>
+            <class name="Day8.UpdateUser"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test4">
+        <classes>
+            <class name="Day8.DeleteUser"/>
+        </classes>
+    </test>
+</suite>
